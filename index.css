@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(107, 107, 107);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#side{
+    width: 30%;
+    border-right-style: solid;
+    margin-right: .5rem;
+}
+
+#main{
+    width: 70%;
+}
+
+.item{
+    border-bottom-style:dashed;
+}
+
+.item-details{
+    margin-left: 1rem;
+}
